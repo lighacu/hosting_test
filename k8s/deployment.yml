@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: static-website
-        image: lighadocker/static-website:replaceImageTag
+        image: ligha/static-website:replaceImageTag
         ports:
         - containerPort: 80
         resources:
