@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: static-website
-        image: your-docker-hub-username/static-website:replaceImageTag
+        image: lighadocker/static-website:replaceImageTag
         ports:
         - containerPort: 80
         resources:
